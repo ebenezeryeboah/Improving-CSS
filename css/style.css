@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: "Raleway", 'Helvetica Neue', sans-serif, serif;
+}
+
+main {
+    background: url(../images/asset\ 2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top -100px;
+    height: 100vh;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #fff;
+    height: 80px;
+    align-items: center;
+
+}
+
+.nav-content {
+    text-decoration: none;
+    color: #474849;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+
+}
+
+
+.logo {
+    font-size: 25px;
+    font-weight: 200;
+    color: rgb(43, 44, 44);
+    line-height: 53px;
+}
+
+.first-nav-right {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+}
+
+.nav-right:nth-child(2) {
+    color: #3a52bf;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.first-page-content {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.first-page-content>h1 {
+    color: #fff;
+    font-size: 60px;
+    line-height: 64px;
+    font-weight: 400;
+}
+
+.first-page-content>p {
+    color: #fff;
+    font-size: 14px;
+}
+
+.first-page-buttons button {
+    padding: 20px 50px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.first-page-buttons button:nth-child(1) {
+    background-color: #3a52bf;
+    border: 3px solid #3a52bf;
+
+}
+
+.first-page-buttons button:nth-child(2) {
+    background: none;
+    border: 3px solid #fff;
+}
+
+.second-page-content {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.second-page-image {
+    height: 500px;
+}
+
+.second-page-right h4 {
+    font-size: 30px;
+    line-height: 33px;
+    color: #0e1015;
+    font-weight: 400;
+}
